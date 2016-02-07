@@ -14,8 +14,24 @@
 3. cl/log (log), cw(warn), ce(error), iife(Immediately invoked function expression ) tab
 4. Set up A git Client (Git Eye)
 
+# Command Line
+1. mkdir to open directory
+2. touch to make new file
+3. && to chain commands
+4. install Term2
+5. git add. (add all)
+6. git commit -m "My Commit Message"
+7. git push -u origin master
 # Git Hub Integration
 
 # Automating our Work Flow,{
 
 }
+
+```javascript
+var s = "String";
+(function(window, document, undefined) {
+    // body...
+})(window, document);
+```
+code    

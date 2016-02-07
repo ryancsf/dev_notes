@@ -1,16 +1,12 @@
-# This is notes for Javascript
-1. Try blink for ubuntu again
-2. Check out first 3 group tabs from onetab.
-3.
-
+# TO-DO
 1. Integrate atom with git hub (Learn Git Hub flow)
-2. Learn Derk Banas 15 minutes
-2. Deploy HTML/CSS/Bootstrap basics to github
-3. Learn Atom Work Flow
 2. Install Node.js, Grunt/Gulp, Yeoman
-3. Learn some exciting keyboard shortcut. (Remember your notes in exported notes)
-6. Start Coding Game of Shell + Javascript Framework + follow learn code academy tutorials.
+3. Start Coding Game of Shell + Javascript Framework + follow learn code academy tutorials.
 
+# Important Tools
+1. Numix Icon set
+2. Latest ubuntu (rose)
+3. 
 > This is a blockquote
 
 ___________________________________

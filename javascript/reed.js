@@ -1,3 +1,4 @@
+// Immediately Invoked Function Expression
 (function(){
     // Initializing first commit
     console.log("Hello");
@@ -9,7 +10,7 @@
 
         };
         console.log("Amazing");
-        
+
         return Module;
         }());
 
