@@ -1,5 +1,16 @@
 (function(){
     // Initializing first commit
     console.log("Hello");
-    modpat;
+    var Module =(function(){
+        function Module(){
+
+        }
+        Module.prototype ={
+
+        };
+        console.log("Amazing");
+        
+        return Module;
+        }());
+
 })();

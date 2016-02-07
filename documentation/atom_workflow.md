@@ -12,7 +12,7 @@
 1. Splits Pane. Ctrl+K, then Arrow
 2. Creates a command that sets up boiler plate code. This is known as snippet.
 3. cl/log (log), cw(warn), ce(error), iife(Immediately invoked function expression ) tab
-4.
+4. Set up A git Client (Git Eye)
 
 # Git Hub Integration
 
