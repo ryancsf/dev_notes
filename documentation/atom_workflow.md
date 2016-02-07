@@ -22,6 +22,15 @@
 5. git add. (add all)
 6. git commit -m "My Commit Message"
 7. git push -u origin master
+
+# Selection
+1. Home/End to move to the beginning or  end of a line
+
+
+# Line Manipulation
+1. ctrl+shift+d : duplicate current line
+2. ctrl+shift+k : delete current line
+3. ctrl+shift+enter : insert new line before current line
 # Git Hub Integration
 
 # Automating our Work Flow,{
@@ -34,4 +43,4 @@ var s = "String";
     // body...
 })(window, document);
 ```
-code    
+code

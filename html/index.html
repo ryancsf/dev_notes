@@ -1,13 +1,19 @@
+<!-- Compliant HTM -->
 <!DOCTYPE html>
 <html lang="en">
+<!-- Define what kind of content can be found on this html page  -->
+
 <head>
+    <meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" />
     <meta charset="UTF-8">
     <!-- inline css -->
-    <style type ="text/css">
-        h1 {color:red}
+    <style type="text/css">
+        h1 {
+            color: red
+        }
     </style>
     <!-- External CSS -->
-    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- Meta = additional information -->
     <meta name="description" content="Welcome to blabla" />
@@ -15,7 +21,96 @@
     <meta name="author" content="Ryan Chong" />
     <title>Welcome</title>
 </head>
-<body>
+<!-- Contents -->
 
+<body>
+    <h1>Big Heading</h1>
+    <h2>Big Heading</h2>
+    <h3>Big Heading</h3>
+    <h4>Big Heading</h4>
+    <h5>Big Heading</h5>
+    <h6>Big Heading</h6>
+
+    <abbr title="As soon as possible">ASAP</abbr>
+    <acronym title="As soon as possible">ASAP</acronym>
+
+    <!-- Bold Text -->
+    <b>Bold</b>
+    <br>
+    <big>Big</big>
+
+    <blockquote>
+        Indent this text and style
+    </blockquote>
+
+    <center>Center me please</center>
+    <em>Italic</em>
+    <i>Same Italic</i>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, tenetur laborum delectus fugit veniam tempore. Assumenda eligendi exercitationem culpa dolorum quas ea eaque neque, incidunt voluptate sequi obcaecati, accusamus iure?</p>
+
+    <s>Strike through</s>
+    <small>Small text</small>
+    <sub>subscript</sub>
+    <sup>Superscript</sup>
+
+    <img src="http://www.newthinktank.com/wp-content/uploads/2010/03/marketing-examples45_sm_sm.jpg" alt="Merril Lynch Ad" height="415" width="300" />
+
+    <!-- list -->
+    <dl>
+        <dt>Bicycle</dt>
+        <dd>Has 2 wheels</dd>
+    </dl>
+
+    <ol>
+        <li>Car</li>
+        <li>Truck</li>
+    </ol>
+
+    <ul>
+        <li>Car</li>
+        <li>Truck</li>
+    </ul>
+
+    <!-- Creating links/ anchor tags -->
+    <!-- blank opens in new window, self opens in own window -->
+    <a href="http://www.google.com" target="_blank">Awesome Website</a>
+
+    <!-- Table -->
+    <table summary="Here is a table">
+        <caption>Some things I did</caption>
+        <!-- Table Row -->
+        <tr>
+            <th>Sat</th>
+            <th>Sun</th>
+        </tr>
+
+        <tr>
+            <th>Fri</th>
+            <th>Wed</th>
+        </tr>
+    </table>
+
+    <!-- Form -->
+    <!-- get method will put in url -->
+    <form action="someaction.php" method="post">
+        <b>Send message to this email</b>
+        <br>
+        <input type="text" name="email" size=40>
+        <br>
+        <textarea name="newText" rows="8" cols="40">Default Text</textarea>
+        <input type="password" name="passwordInput" size="40">
+        <input type="radio" name="email" value="Home">
+        <input type="radio" name="email" value="Work">
+        <input type="checkbox" name="checkboxinput" value="Home">
+        <input type="checkbox" name="checkboxinput" value="Work">
+        <select class="dropdown" name="selectInput">
+            <option value="loveSelect">Love</option>
+            <option value="hateSelect">Hate</option>
+        </select>
+        <input type="hdden" name="Submitted" value="True">
+        <input type="submit" name="submitBtn" value="Send">
+    </form>
 </body>
+
 </html>
