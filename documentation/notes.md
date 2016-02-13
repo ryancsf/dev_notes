@@ -1,12 +1,13 @@
 # TO-DO
-1. Integrate atom with git hub (Learn Git Hub flow)
-2. Install Node.js, Grunt/Gulp, Yeoman
-3. Start Coding Game of Shell + Javascript Framework + follow learn code academy tutorials.
+1. Find out best terminal shell for Atom
+2. Start Coding Game of Shell + Javascript Framework + follow learn code academy tutorials.
+3. Try out meteor and set up ryancsf.me whenever possible
 
 # Important Tools
 1. Numix Icon set
-2. Latest ubuntu (rose)
-3. 
+2. Latest ubuntu (rose) / Windows (for photoshop purpose)
+3. Node + NPM + Yeoman + Gulp + Bower
+
 > This is a blockquote
 
 ___________________________________

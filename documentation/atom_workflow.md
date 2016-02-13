@@ -31,6 +31,10 @@
 1. ctrl+shift+d : duplicate current line
 2. ctrl+shift+k : delete current line
 3. ctrl+shift+enter : insert new line before current line
+
+# CSS
+1. "+" is siblings
+2. ">" is children
 # Git Hub Integration
 
 # Automating our Work Flow,{
