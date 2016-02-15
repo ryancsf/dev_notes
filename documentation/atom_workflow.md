@@ -37,9 +37,10 @@
 2. ">" is children
 # Git Hub Integration
 
-# Automating our Work Flow,{
+# Automating our Work Flow
 
-}
+# Ubuntu Keyboard shortcut
+1. shift+ctrl+t to open new tab
 
 ```javascript
 var s = "String";

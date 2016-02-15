@@ -2,6 +2,7 @@
 1. Find out best terminal shell for Atom
 2. Start Coding Game of Shell + Javascript Framework + follow learn code academy tutorials.
 3. Try out meteor and set up ryancsf.me whenever possible
+4. Learn more git commands, git terminal shortcuts, setup own javascript framework
 
 # Important Tools
 1. Numix Icon set
