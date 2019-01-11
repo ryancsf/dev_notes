@@ -1,0 +1,78 @@
+module.exports = {
+  parser: 'babel-eslint',
+  plugins: ['flowtype', 'jest'],
+  extends: [
+    'plugin:jest/recommended',
+    'plugin:flowtype/recommended',
+    'airbnb',
+    'prettier',
+    'prettier/react',
+    'prettier/flowtype',
+  ],
+  env: {
+    browser: true,
+    'jest/globals': true,
+  },
+  globals: {
+    sforce: true,
+    jsdom: true,
+  },
+  rules: {
+    'arrow-body-style': 'off',
+    'class-methods-use-this': 'off',
+    curly: ['error', 'all'],
+    eqeqeq: ['error', 'always'],
+    'global-require': 'warn',
+    'import/named': 'error',
+    'import/no-dynamic-require': 'warn',
+    indent: 'off',
+    'linebreak-style': 'off',
+    'no-case-declarations': 'off',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
+    'no-duplicate-imports': 'off',
+    'no-else-return': 'off',
+    'no-param-reassign': ['error', { props: false }],
+    'no-plusplus': ['error', { allowForLoopAfterthoughts: true }],
+    'no-underscore-dangle': 'warn',
+    'no-unused-vars': [
+      'error',
+      {
+        argsIgnorePattern: '^_',
+        varsIgnorePattern: '^_',
+      },
+    ],
+    'no-warning-comments': ['warn', { terms: ['todo', 'xxx'] }],
+    'import/no-extraneous-dependencies': [
+      'error',
+      {
+        devDependencies: ['**/stories/**/*.js', '**/__tests__/**/*.js'],
+      },
+    ],
+    'jsx-a11y/img-has-alt': 'warn',
+    'jsx-a11y/label-has-for': 'warn',
+    'jsx-a11y/no-static-element-interactions': 'warn',
+    radix: 'off',
+    'react/forbid-prop-types': ['error', { forbid: ['any'] }],
+    'react/jsx-filename-extension': ['warn', { extensions: ['.js', '.jsx'] }],
+    'react/no-multi-comp': 'off',
+    'react/no-unused-prop-types': ['error', { skipShapeProps: true }],
+    'react/prefer-stateless-function': 'off',
+    'react/prop-types': 'off',
+    'react/sort-comp': [
+      'error',
+      {
+        order: [
+          'type-annotations',
+          'static-methods',
+          'lifecycle',
+          '/^on.+$/',
+          'everything-else',
+          'rendering',
+        ],
+        groups: {
+          rendering: ['/^render.+$/', 'render'],
+        },
+      },
+    ],
+  },
+};
